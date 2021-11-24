@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url(./assets/header.jpg);
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  width: 70%;
+  margin: 0 15% 0;
+}
+
+nav {
+  margin-top: 2%;
+  width: 37%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav button {
+  background-color: rgb(163, 4, 4);
+  color: white;
+  padding: 2%;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bolder;
+}
+
+.Jeux {
+  padding-top: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Jeux h1 {
+    position: relative;
+    bottom: 350px;
+    right: 1050px;
+    font-weight: 100;
+  }
+  
+.Achete {
+    position: relative;
+    bottom: 170px;
+    right: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Achete p {
+    padding: 10px;
+    text-align: end;
+}
+
+span {
+    text-transform: uppercase;
+    color: green;
+}
+
+.Achete button {
+    width: 255px;
+    height: 40px;
+    background-color: rgb(187, 21, 21);
+    color: yellow;
+    text-transform: uppercase;
+    border: none;
+}
+
+hr {
+  margin: 5% 0;
+}
+
+
+h2 {
+    font-weight: 100;
+    position: relative;
+}
+.Produits {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 120px;
+  }
+
+h5 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: start;
+    font-size: small;
+}
+
+.Produits :first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+.column1 :first-child{
+    display: flex;
+    flex-direction: column;
+}
+  
+.Produits img {
+  width: 70%;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.column2 :first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: url(/assets/footer.jpg);
+    width: 100%;
+    padding: 90px;
+}
+
+footer img {
+    width: 20%;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Reseaux {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+  padding: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links section {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+}
+
+.links :last-child img {
+  width: 150px;
+}
